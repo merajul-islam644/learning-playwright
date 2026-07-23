@@ -1,0 +1,23 @@
+{
+  "name": "learning-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "extract": "node scripts/extract-tests.js",
+    "watch": "node scripts/watch-tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "chokidar": "^5.0.0"
+  }
+}
